@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "owner": "danieloirere",
+    "name": "HackedAviator Predictor",
+    "slug": "predictor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/action.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.danieloirere.Predictor"
+    },
+    "web": {
+      "favicon": "./assets/action.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1f89e0c1-6b8d-44b1-8f81-c81f1dd255fc"
+      }
+    }
+  }
+}
